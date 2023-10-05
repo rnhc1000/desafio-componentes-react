@@ -1,27 +1,99 @@
-# React + TypeScript + Vite
+# DSCommerce - FrontEnd ReactJS-based Challenge - ReactJS Professional - @devsuperior -
+ReactJS Professional Challenge on Static Components 
+- Components
+- Routes
+- Yarn
+- Vite
+## _Table of contents_
+- [Overview](#overview)
+- [Screenshot](#screenshot)
+- [Links](#links)
+- [Built with](#built-with)
+- [What I practiced](#what-i-practiced)
+- [Continued development](#continued-development)
+- [Resources](#useful-resources)
+- [Author](#author)
+- [Acknowledgments](#acknowledgments)
+## _Overview_
+The design is structured as shown:
+- src|
+    - assets|
+    - components|
+        - CardCar
+          - index.tsx
+          - styles.css
+        - CommentCard
+        - FooterCar
+        - HeaderCar
+   - routes
+        - CarIndex
+   - App.tsx
+   - index.css
+   - main.tsx
+   - index.html
+   - tsconfig.json
+   - tsconfig.node.json
+   - vite.config.js
+   - yarn.lock
+- public|
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## _Screenshot_
+[![](./DSCommerce-frontend.png)]()
+## _Links_
+- Live Site URL: [] 
+## _Built with_
+| Git | ReacJS | Vite | Yarn | TypeScript | JavaScript | Visual Studio
+|----------|----------|----------|----------|----------|----------|----------|
+ ![](https://ferreiras.dev.br/assets/images/icons/git-scm-icon.svg) | ![](https://ferreiras.dev.br/assets/images/icons/react.svg) | ![](https://ferreiras.dev.br/assets/images/icons/vite.svg) | ![](https://ferreiras.dev.br/assets/images/icons/yarn-title.svg) | ![](https://ferreiras.dev.br/assets/images/icons/ts-logo.svg) | ![](https://ferreiras.dev.br/assets/images/icons/icons8-javascript.svg) | ![](https://ferreiras.dev.br/assets/images/icons/icons8-visual-studio-code.svg)  
 
-Currently, two official plugins are available:
+ ## _What I practiced_
+```jsx
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+import './styles.css';
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+export default function HeaderCar() {
 
-- Configure the top-level `parserOptions` property like this:
+    return (
+        <div className="header-car">
+            <h1>DSCarrosTop</h1>
+        </div>
+    );
+}
 
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
-```
+``` 
+```tsx
+import './styles.css';
+import HeaderCar from '../../components/HeaderCar';
+import CardCar from '../../components/CardCar';
+import CommentCard from '../../components/CommentCard';
+import FooterCar from '../../components/FooterCar';
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+export default function CarIndex() {
+
+   return (
+      <>
+         <HeaderCar />
+         <main>
+            <h1 className="car-title">Venha nos visitar</h1>
+            <CardCar />
+            <CommentCard />
+         </main>
+         <FooterCar />
+      </>
+   );
+
+}
+
+``` 
+
+## _Continued development_
+- Next challenge: Moving forward 
+### _Useful resources_
+- [https://reactjs.org] React lets you build user interfaces out of individual pieces called components!.
+- [https://yarnpkg.org/] Open-source package manager used to manage dependencies in  JavaScript.
+- [https://vitejs.dev/guide/] Build tool that aims to provide a faster and leaner development experience for modern web projects.
+## _Author_
+- Website - [https://ferreiras.dev.br] 
+## Acknowledgments
+- @devsuperior

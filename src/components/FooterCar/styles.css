@@ -1,5 +1,4 @@
 .footer-car {
-
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -19,7 +18,6 @@
     margin-left: 120px;
     text-align: center;
     font-weight: 400;
-    
 }
 
 
@@ -35,8 +33,6 @@
 }
 
 @media (min-width: 320px) {
- 
-
 
     .footer-car h3 {
         max-width: 137px;
@@ -46,7 +42,6 @@
         text-align: center;
         font-weight: 400;
         font-size: 16px;
-
     }
 
     .footer-car h4 {
@@ -58,37 +53,29 @@
         font-weight: 400;
         font-size: 16px;
     }
-    
-}
-@media (min-width: 576px) {
- 
 
+}
+
+@media (min-width: 576px) {
 
     .footer-car h3 {
-        /* max-width: 137px;
-        height: 21px;
-        line-height: 24px; */
         margin: 34px 91px 4px 91px;
         text-align: center;
         font-weight: 400;
         font-size: 18px;
-
     }
 
     .footer-car h4 {
-        /* max-width: 180px;
-        height: 21px;
-        line-height: 24px; */
         margin: 4px 70px;
         text-align: center;
         font-weight: 400;
         font-size: 18px;
     }
-    
+
 }
 
 @media (min-width: 762px) {
- 
+
     .footer-car h3 {
 
         text-align: center;
@@ -103,11 +90,11 @@
         font-weight: 400;
         font-size: 20px;
     }
-    
+
 }
 
 @media (min-width: 992px) {
- 
+
     .footer-car {
         flex-direction: row;
         justify-content: center;
@@ -122,7 +109,6 @@
         text-align: center;
         font-weight: 400;
         font-size: 20px;
-
     }
 
     .footer-car h4 {
@@ -134,5 +120,5 @@
         font-weight: 400;
         font-size: 20px;
     }
-    
+
 }
