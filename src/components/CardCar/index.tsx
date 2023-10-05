@@ -7,11 +7,11 @@ export default function CardCar() {
             <section id="card-car-section" className="card-car-container">
                 
                 <div className="card-car">
-                    <img src={car} alt="car" />
+                    <img src={ car} alt="car" className="responsive-img"/>
                     <h3>Lorem ipsum dolor</h3>
                 </div>
                 <div className="card-car">
-                    <img src={car} alt="car" />
+                    <img src={ car } alt="car" className="responsive-img"/>
                     <h3>Lorem ipsum dolor</h3>
 
                 </div>

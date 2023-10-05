@@ -22,8 +22,7 @@
     color:#5E5E5E;
     padding: 20px 0 40px 0;
 
-    
-    
+  
 
 }
 .card-signature p {
@@ -38,4 +37,69 @@
 
 h1 {
     text-align: center;
+}
+
+
+.responsive-img {
+
+    width: 100%;
+    height: auto;
+}
+
+
+@media (min-width: 320px) {
+
+    .card-car {
+        max-width: 280px;
+        height: 248px;
+
+    }
+}
+
+@media (min-width: 576px) {
+
+    .card-car {
+        max-width: 380px;
+        height: 296px;
+
+    }
+    .responsive-img {
+
+        width: 100%;
+        max-width: 351px;
+        height: 248px;
+    }
+
+}
+
+@media (min-width: 768px) {
+
+    .card-car {
+        max-width: 480px;
+        height: 352px;
+
+    }
+    .responsive-img {
+
+        width: 100%;
+        max-width: 301px;
+        height: 293px;
+    }
+
+}
+
+@media (min-width: 996px) {
+
+    .card-car {
+        max-width: 746px;
+        height: 352px;
+
+    }
+    .responsive-img {
+
+        width: 100%;
+        max-width: 391px;
+        height: 292px;
+    }
+
 }
