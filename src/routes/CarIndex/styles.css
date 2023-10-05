@@ -5,45 +5,45 @@
     font-weight: 700;
     line-height: 30px;
     padding: 0 20 0 20;
-  }
+}
 
-  @media (min-width: 320px) {
+@media (min-width: 320px) {
     .car-title {
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 30px;
-    padding: 0 20 0 20;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 30px;
+        padding: 0 20 0 20;
     }
 }
 
 
 @media (min-width: 576px) {
     .car-title {
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 30px;
-    padding: 0 20 0 20;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 30px;
+        padding: 0 20 0 20;
     }
 }
 
 @media (min-width: 768px) {
     .car-title {
-    font-size: 28px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    padding: 0 22 0 22;
+        font-size: 28px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        padding: 0 22 0 22;
     }
 }
 
 @media (min-width: 992px) {
     .car-title {
-    font-size: 32px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 48px;
-    padding: 0 24 0 24;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 48px;
+        padding: 0 24 0 24;
     }
 }
