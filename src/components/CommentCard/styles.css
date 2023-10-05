@@ -5,49 +5,40 @@
 
     display: flex;
     flex-direction: column;
-
-    /* justify-content: center; */
     background-color: var(--card-color-bg-comment);  
     width: 100%;
-    height: 692px;
+    height: 100%;
 }
 
 .comment-card-container-text {
-     display: flex; 
-    /*justify-content: center;
-    flex-direction: row;*/
+    display: flex; 
+    justify-content: center; 
     align-items: center;
-    font-size: 32px;
+    font-size: 20px;
+    line-height: 30px;
     font-weight: 700;
     width: 100%;
-    max-width: 332px;
-    height: 48px;
-
+    max-width: 208px;
+    height: 30px;
     color: var(--card-color-title);
     text-align: center;
-    padding: 25px 0 0 0;
-    margin: 0 auto; 
+    /* padding: 25px 20px; */
+    margin: 25px auto; 
 }
 
 .comment-card-car {
     display: flex;
     flex-direction: column;
-    /*justify-content: center;
-    flex-wrap: wrap; 
-    grid-template-rows: 1; 
-    grid-auto-flow: row;
-    grid-gap: 1px; 
-    place-items: center;  */
     border: 1px solid var(--card-color-car-comment);
     width: 100%;
-    max-width: 960px;
-    height:74px;
+    max-width: 280px;
+    height: 280px;
     justify-content: center;
     align-items: center;
     color: var(--card-color-bg-comment);
     border-radius: 12px;
     background-color: #FFF;
-    /* margin: 0 auto;*/
+    /* margin: 0 auto; */
     margin: 25px auto;
     /* margin: 200px 120px 20px 120px; */
 
@@ -57,7 +48,79 @@
 .comment-card-text {
     font-size: 16px;
     color: var(--card-color-car-comment);
+    margin: 25px 20px;
 }
+
+@media (min-width: 320px) {
+    .comment-card-car {
+        margin: 25px auto;
+    }
+
+    .comment-card-text {
+        font-size: 16px;
+        line-height: 24px;
+        margin: 25px 20px;
+    }
+    
+    .comment-card-container-text {
+       font-size: 20px;
+       line-height: 30px;
+   }
+}
+
+@media (min-width: 576px) {
+
+        .comment-card-car {
+        max-width: 480px;
+        height: 108px;
+        margin: 25px auto;
+
+    }
+    .comment-card-container-text {
+        font-size: 24px;
+        line-height: 34px;
+        max-width: 248px;
+        height: 36px;
+    }
+
+}
+
+@media (min-width: 768px) {
+
+        .comment-card-car {
+        max-width: 640px;
+        height: 94px;
+        margin: 25px auto;
+
+    }
+
+    .comment-card-container-text {
+        font-size: 28px;
+        line-height: 32px;
+        max-width: 296px;
+        height: 42px;
+    }
+
+}
+
+@media (min-width: 992px) {
+
+    .comment-card-car {
+        max-width: 960px;
+        height:74px;
+        font-size: 20px;
+        line-height: 30px;
+        margin: 25px auto;
+    
+    }
+
+    .comment-card-container-text {
+        max-width: 332px;
+        height: 48px;
+        font-size: 32px;
+    }
+}
+
 
     
 

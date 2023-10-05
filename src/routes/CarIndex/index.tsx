@@ -8,14 +8,14 @@ export default function CarIndex() {
 
    return (
       <>
-      <HeaderCar />
-      <main>
-         <h1 className="car-title">Venha nos visitar</h1>
-         <CardCar />
-         <CommentCard />
+         <HeaderCar />
+         <main>
+            <h1 className="car-title">Venha nos visitar</h1>
+            <CardCar />
+            <CommentCard />
+         </main>
          <FooterCar />
-      </main>
-   </> 
+      </>
    );
 
 }

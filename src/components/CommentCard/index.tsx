@@ -27,8 +27,6 @@ export default function CommentCard() {
                 <div className="comment-card-car">
                     <p className="comment-card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae harum voluptatem ad fugit id distinctio.</p>
                 </div>
-
-
             </div>
         </section>
 
