@@ -1,0 +1,41 @@
+.card-car-container {
+
+    display:grid;
+    place-items:center;
+    margin: 0 auto;
+    grid-gap: 25px;
+    margin-bottom: 25px;
+
+}
+
+.card-car {
+
+    display: grid;
+    place-items: center;
+    grid-template-rows: 2;
+    width: 100%;
+    max-width: 746px;
+    height: 352px;
+    /* margin-top: 168px; */
+    border-radius: 10px;
+    border: 1px solid #3C9af0;
+    color:#5E5E5E;
+    padding: 20px 0 40px 0;
+
+    
+    
+
+}
+.card-signature p {
+    width: 100%;
+    max-width: 192px;
+    height: 30px;
+    font-size: 20px;
+    line-height: 30px;
+    text-align:center;
+    display: grid;
+}
+
+h1 {
+    text-align: center;
+}

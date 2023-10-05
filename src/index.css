@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Raleway:wght@200;300;500&family=Ysabeau:ital,wght@1,200;1,300;1,500&display=swap');
+
+:root {
+
+  --card-color-header-car-primary: #3483fa;
+  --card-color-header-font-primary: #fff;
+  --card-color-car-bg-primary: #fff;
+  --card-color-car-comment: #3C9AF0;
+  --card-color-bg-comment: #C8C8C8;
+  --card-color-title: #5E5E5E;
+
+}
+
+
+* {
+  box-sizing: border-box;
+  margin: 0 auto;
+  padding: 0;
+  font-family: "Open Sans", sans-serif;
+
+}
+
+html,
+body {
+  background-color: var(--card-color-car-bg-primary);
+}
+
+

@@ -1,0 +1,62 @@
+#car-comment-section {
+    padding: 0;
+}
+.comment-card-car-container {
+
+    display: grid;
+    background-color: var(--card-color-bg-comment);  
+    color: var(--card-color-car-comment);
+    width: 100%;
+    height: 692px;
+}
+
+.comment-card-container-text {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    font-size: 32px;
+    width: 100%;
+
+    max-width: 332px;
+    height: 48px;
+
+    color: var(--card-color-title);
+    text-align: center;
+    padding: 25px 0 25px 0;
+    margin: 0 auto;
+
+}
+
+/* .comment-card-car-container > p {
+
+
+} */
+
+.comment-card-car {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    /* grid-template-rows: 1; 
+    grid-auto-flow: row;
+    grid-gap: 1px; 
+    place-items: center;  */
+    border: 1px solid var(--card-color-car-comment);
+    width: 100%;
+    max-width: 960px;
+    height:74px;
+    color: var(--card-color-bg-comment);
+    border-radius: 12px;
+    background-color: #FFF;
+    margin: 0 auto;
+    padding: 25px;
+    /* margin: 200px 120px 20px 120px; */
+
+}
+
+.comment-card-car  p {
+    font-size: 16px;
+    text-align: center;
+    color: var(--card-color-car-comment);
+}

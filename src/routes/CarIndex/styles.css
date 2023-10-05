@@ -1,0 +1,5 @@
+.car-title {
+    color: var(--card-color-title);
+    font-size: 32px;
+    line-height: 48px;
+  }
